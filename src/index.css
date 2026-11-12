@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --gold-primary: #d4af37;
+    --gold-light: #f6e05e;
+    --gold-dark: #aa820a;
+    --navy-dark: #070d18;
+    --navy-card: #0d1726;
+    --navy-light: #162438;
+  }
+}
+
+/* Custom print styles for printing legal consultations and drafts */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .print-document {
+    border: 2px solid #b8860b !important;
+    padding: 24px !important;
+    margin: 0 !important;
+    color: #111111 !important;
+    background: #ffffff !important;
+    box-shadow: none !important;
+  }
+}
+
+/* Royal Double Gold Border Class */
+.border-royal-double {
+  border: 4px double rgba(212, 175, 55, 0.45);
+}
+
+.border-royal-gold {
+  border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #09111e;
+}
+::-webkit-scrollbar-thumb {
+  background: #253852;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}

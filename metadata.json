@@ -1,0 +1,11 @@
+{
+  "name": "المستشار عطية الهلباوي",
+  "description": "المنصة الذكية الملكية المتكاملة للمستشار عطية الهلباوي — استشارات قانونية مصرية، عقل مركزي ذكي، إدارة مكتب المحاماة، ومحرر وثائق متقدم",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
